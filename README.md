@@ -259,22 +259,6 @@ Les erreurs sont retournées au format JSON structuré via `GlobalExceptionHandl
 
 ## Tester l'API
 
-### Avec cURL
-
-**Créer un auteur :**
-```bash
-curl -X POST http://localhost:8080/authors \
-  -H "Content-Type: application/json" \
-  -d '{"firstName":"Victor","lastName":"Hugo","birthYear":1802}'
-```
-
-**Créer un livre :**
-```bash
-curl -X POST http://localhost:8080/books \
-  -H "Content-Type: application/json" \
-  -d '{"title":"Les Misérables","isbn":"978-2-07-036012-8","year":1862,"category":"NOVEL","authorId":1}'
-```
-
 ### Avec Postman
 
 Vous pouvez importer la collection suivante dans Postman pour tester tous les endpoints :
