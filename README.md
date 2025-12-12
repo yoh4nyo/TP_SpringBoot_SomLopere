@@ -1,13 +1,13 @@
 # 📚 API REST - Gestion de Bibliothèque (Yohan SOM & Alexandre LOPERE)
 
-## 🎯 Description du projet
+## Description du projet
 
 API REST développée avec Spring Boot permettant de gérer une bibliothèque (livres et auteurs) dans le cadre du TP API - Modèle MVC
 Le projet implémente une architecture MVC complète avec gestion des entités **Author** et **Book**, incluant des fonctionnalités CRUD et des endpoints de statistiques
 
 ---
 
-## 🏗️ Architecture du projet
+## Architecture du projet
 
 Le projet suit l'architecture MVC suivante :
 
@@ -40,7 +40,7 @@ SomLopere/
 
 ---
 
-## 📋 Entités
+## Entités
 
 ### Author
 - `id` : Long (auto-généré)
@@ -58,7 +58,7 @@ SomLopere/
 
 ---
 
-## 🚀 Installation et lancement
+## Installation et lancement
 
 ### Prérequis
 - **Java 17** ou supérieur
@@ -104,9 +104,9 @@ L'API sera accessible à l'adresse : **http://localhost:8080**
 
 ---
 
-## 📡 Endpoints disponibles
+## Endpoints disponibles
 
-### 🧑‍💼 Auteurs (`/authors`)
+### Auteurs (`/authors`)
 
 | Méthode | Endpoint | Description |
 |---------|----------|-------------|
@@ -137,7 +137,7 @@ GET http://localhost:8080/authors
 
 ---
 
-### 📖 Livres (`/books`)
+### Livres (`/books`)
 
 | Méthode | Endpoint | Description |
 |---------|----------|-------------|
@@ -246,7 +246,7 @@ L'enum `Category` supporte les valeurs suivantes :
 
 ---
 
-## ⚠️ Gestion des erreurs
+## Gestion des erreurs
 
 L'API gère les erreurs suivantes :
 - **404 Not Found** : Ressource (auteur/livre) introuvable
@@ -257,7 +257,7 @@ Les erreurs sont retournées au format JSON structuré via `GlobalExceptionHandl
 
 ---
 
-## 🧪 Tester l'API
+## Tester l'API
 
 ### Avec cURL
 
