@@ -1,16 +1,15 @@
-# 📚 API REST - Gestion de Bibliothèque (SomLopere)
+# 📚 API REST - Gestion de Bibliothèque (Yohan SOM & Alexandre LOPERE)
 
 ## 🎯 Description du projet
 
-API REST développée avec Spring Boot permettant de gérer une bibliothèque (livres et auteurs) dans le cadre du TP Spring Boot - Modèle MVC.
-
-Le projet implémente une architecture MVC complète avec gestion des entités **Author** et **Book**, incluant des fonctionnalités CRUD et des endpoints de statistiques.
+API REST développée avec Spring Boot permettant de gérer une bibliothèque (livres et auteurs) dans le cadre du TP API - Modèle MVC
+Le projet implémente une architecture MVC complète avec gestion des entités **Author** et **Book**, incluant des fonctionnalités CRUD et des endpoints de statistiques
 
 ---
 
 ## 🏗️ Architecture du projet
 
-Le projet suit l'architecture MVC recommandée :
+Le projet suit l'architecture MVC suivante :
 
 ```
 SomLopere/
