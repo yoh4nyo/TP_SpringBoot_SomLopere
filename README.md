@@ -236,7 +236,7 @@ Réponse :
 ]
 ```
 
-## 🎨 Catégories de livres
+## Catégories de livres
 
 L'enum `Category` supporte les valeurs suivantes :
 - `NOVEL` : Roman
