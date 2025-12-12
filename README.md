@@ -236,19 +236,6 @@ Réponse :
 ]
 ```
 
----
-
-## 🛠️ Technologies utilisées
-
-- **Spring Boot 3.2.2**
-- **Spring Data JPA** (Hibernate)
-- **Spring Web** (REST API)
-- **MySQL** (base de données)
-- **Maven** (gestion des dépendances)
-- **Java 17**
-
----
-
 ## 🎨 Catégories de livres
 
 L'enum `Category` supporte les valeurs suivantes :
@@ -267,19 +254,6 @@ L'API gère les erreurs suivantes :
 - **400 Bad Request** : Données invalides
 
 Les erreurs sont retournées au format JSON structuré via `GlobalExceptionHandler`.
-
----
-
-## 📝 Fonctionnalités implémentées
-
-✅ Architecture MVC complète  
-✅ CRUD complet pour Authors et Books  
-✅ Relations ManyToOne (Book → Author)  
-✅ Contrainte d'unicité sur ISBN  
-✅ Enum pour les catégories  
-✅ Endpoints de statistiques  
-✅ Gestion des erreurs centralisée  
-✅ DTOs pour la création de livres  
 
 ---
 
@@ -308,17 +282,3 @@ Vous pouvez importer la collection suivante dans Postman pour tester tous les en
 1. Créer une nouvelle collection "SomLopere API"
 2. Ajouter les requêtes ci-dessus
 3. Configurer la variable d'environnement `baseUrl = http://localhost:8080`
-
----
-
-## 👨‍💻 Auteur
-
-**Projet réalisé par :** [Votre Nom]  
-**Repository GitHub :** https://github.com/yoh4nyo/TP_SpringBoot_SomLopere  
-**Date :** Décembre 2025
-
----
-
-## 📄 Licence
-
-Projet académique - TP Spring Boot MVC
